@@ -1,14 +1,10 @@
 {
-  "name": "Inchcape.Trivett.Web",
+  "name": "yet-another-front-end-starter-kit",
   "version": "1.0.0",
-  "description": "The UI Layer of the Trivett Masterbrand site",
-  "repository": {
-    "type": "git",
-    "url": "http://stash.carsales.office/scm/inchcape/inchcape.trivett.git"
-  },
+  "description": "",
   "main": "gulpfile.js",
-  "author": "Inchcape Team",
-  "license": "ISC",
+  "author": "Timothy Dang",
+  "license": "MIT",
   "engine-strict": true,
   "engines": {
     "node": ">=5.9.0"
@@ -19,7 +15,6 @@
   },
   "devDependencies": {
     "async": "2.0.0-rc.2",
-    "babel-preset-es2015-riot": "^1.1.0",
     "browser-sync": "2.11.2",
     "browserify": "13.0.0",
     "browserify-shim": "3.8.12",
