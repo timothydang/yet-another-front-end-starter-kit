@@ -1,0 +1,36 @@
+// Colours
+$white:                   #FFF;
+$black:                   #000;
+$color-primary:           #000;
+$color-secondary:         #333;
+$color-tertiary:          #E6E6E6;
+
+$link-color:              #333;
+$link-inactive-color:     #999;
+
+$color-border:            #073773;
+$color-button-bg:         #073773;
+
+// Paddings / Margins
+$padding-xs:   5px;
+$padding-sm:   10px;
+$padding-md:   20px;
+$padding-lg:   30px;
+$padding-xl:   40px;
+$padding-xxl:  50px;
+$padding-xxxl: 70px;
+
+// Font-size
+$font-xxs:                        0.625rem;   //10px
+$font-xs:                         0.75rem;    //12px
+$font-sm:                         0.875rem;   //14px
+$font-base:                       1rem;       //16px
+$font-md:                         1.125rem;   //18px
+$font-lg:                         1.5rem;     //24px
+$font-xl:                         1.75rem;    //28px
+$font-xxl:                        2.25rem;    //36px
+
+$transition-length: 0.3s;
+$transition-easing: cubic-bezier(0.455, 0.030, 0.515, 0.955);
+
+$aspect-card-image: 65.8333333%;

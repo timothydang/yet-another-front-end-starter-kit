@@ -1,0 +1,29 @@
+@mixin no-bullet-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin stripe-background {
+  background: $black url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAKUlEQVQIW2NkYGD4zwAFxsbGDIwwARDn7NmzEAEYB6SQ0djY+D9IBgYAmdUNmqEJJbQAAAAASUVORK5CYII=') repeat top left;
+}
+
+@mixin shift-left-50 {
+  transform: translateX(-50px);
+}
+@mixin shift-left-100 {
+  transform: translateX(-100px);
+}
+@mixin shift-right-50 {
+  transform: translateX(50px);
+}
+@mixin shift-right-100 {
+  transform: translateX(100px);
+}
